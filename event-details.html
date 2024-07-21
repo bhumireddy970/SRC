@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Event Details</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="create-event.html">Create Event</a>
+            <a href="profile.html">Profile</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>[Event Title]</h2>
+            <p>[Event Description]</p>
+            <p><strong>Date:</strong> [Event Date]</p>
+            <p><strong>Time:</strong> [Event Time]</p>
+            <p><strong>Venue:</strong> [Event Venue]</p>
+            <h3>Tasks</h3>
+            <ul>
+                <!-- Task list will be populated here -->
+            </ul>
+            <h3>Resources</h3>
+            <ul>
+                <!-- Resource list will be populated here -->
+            </ul>
+            <h3>Volunteers</h3>
+            <form action="volunteer-signup.html" method="POST">
+                <label for="volunteer-name">Name:</label>
+                <input type="text" id="volunteer-name" name="volunteer-name" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 RGUKT RK Valley</p>
+    </footer>
+</body>
+</html>

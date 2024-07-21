@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback and Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback and Analytics</h1>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="create-event.html">Create Event</a>
+            <a href="profile.html">Profile</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Post-Event Feedback</h2>
+            <form action="submit-feedback.html" method="POST">
+                <label for="event-rating">Event Rating:</label>
+                <select id="event-rating" name="event-rating">
+                    <option value="1">1 - Poor</option>
+                    <option value="2">2 - Fair</option>
+                    <option value="3">3 - Good</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="5">5 - Excellent</option>
+                </select>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+        <section>
+            <h2>Analytics Dashboard</h2>
+            <!-- Data analytics and charts will be integrated here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 RGUKT RK Valley</p>
+    </footer>
+</body>
+</html>
